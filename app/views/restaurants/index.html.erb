@@ -1,0 +1,6 @@
+<% @restaurants.each do |restaurant| %>
+    <h3><%= restaurant.name %></h3>
+    <%= "Address: #{restaurant.address} \/" %>
+    <strong><%= " Phone: #{restaurant.phone_number} \/"  %></strong>
+    <em><%= " Category: #{restaurant.category}" %></em><
+<% end %>
